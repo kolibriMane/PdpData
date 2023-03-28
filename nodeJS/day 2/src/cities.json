@@ -1,0 +1,8 @@
+{ "cities": [
+    {"id": "1",  "name": "Vanadzor", "isCapital": false, "population": 86199},
+    {"id": "2",  "name": "London", "isCapital": true, "population": 8982000},
+    {"id": "3",  "name": "New York", "isCapital": false, "population": 8399000},
+    {"id": "4",  "name": "Saintfour", "isCapital": false, "population": 6504},
+    {"id": "5",  "name": "Varshava", "isCapital": false, "population": 6504},
+    {"id": "6",  "name": "Mystic falls", "isCapital": true, "population": 1708000}
+]}

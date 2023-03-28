@@ -1,0 +1,54 @@
+/***************************************************/
+/*                                                 */
+/*   Welcome to Mane Antonyan's homework folder    */
+/*                                                 */
+/***************************************************/
+
+# PROJECT DESCRIPTION
+    - Program connected to MySQL databases (using Sequelize ORM system).
+    - Defined users, investments, offices, cities schemas.
+    - Insert the JSON files data into corresponding tables.
+        users.json into the user's table and investments.json
+        into investments table.
+    - Following  APIs using the express module.
+        - /users/<users id>.
+            Example: /users/30bb2609-c7b9-47d9-b7d4-a83fd894af8e
+            Get one user data by id
+        - /users
+            Get all users list
+        - /investments/<investment id>
+            Example:  /investments/a0e3de35-c99d-4174-add2-d87063bc2609
+            Get one row from investments data by id
+        - /investments
+            Get all investments list
+    - All APIs gets data from the database.
+
+# GETTING STARTED
+    - Production mode : npm run prod
+    - Development mode: npm run dev
+
+# Directory structure
+.
+├── app.js                  // Start point
+├── configs
+│   └── config.js           // Data to use for connection
+├── controllers
+│   ├── ids.controller.js   // Ids apis
+│   └── user.controller.js  // User apis
+├── models
+│   ├── city.js             // Table cities
+│   ├── connection.js       // Sequelize connect
+│   ├── id.js               // Table ids
+│   ├── mysql.js            // Create and init tables
+│   ├── office.js           // Table offices
+│   └── user.js             // Table users
+├── package.json            // Configurations, setting
+├── package-lock.json       // Node modules info
+├── Readme                  // Mini documentation
+├── routers
+│   └── router.js           // Api routing
+└── src
+    ├── cities.json         // City data
+    ├── ids.json            // Id data
+    ├── offices.json        // Office data
+    └── user.json           // User data

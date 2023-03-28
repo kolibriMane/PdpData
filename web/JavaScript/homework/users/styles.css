@@ -1,0 +1,267 @@
+html {
+    height: 100%;
+}
+
+.body {
+    background: #222529;
+    background-size: 100% auto;
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+
+.line {
+    border-right: solid #6a6d70 0.5px;
+    position: fixed;
+    left: 3%;
+    top: 0;
+    bottom: 0;
+}
+
+.line:hover {
+    border-right: solid #87c232 0.5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.getUsers {
+    border: none;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #87c232;
+    color: #ffffff;
+    padding: 5px 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 37%;
+}
+
+.getUsers:hover {
+    background-color:#608930;
+}
+
+.getUsers:active {
+    background-color: #87c232;
+}
+
+.h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #87c232;
+    font-size: 300%;
+}
+
+.h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 400%;
+}
+
+.row {
+    width: auto;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    width: 100%;
+}
+
+.profile {
+    background-color: #474a4e;
+    opacity: 0.5;
+    margin: 10px auto;
+    height: auto;
+    width: 60%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+}
+
+.profile:hover {
+    opacity: 0.6;
+    border: solid #608930 1px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 300%;
+    line-height: 5px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titleSmall {
+    width: 100%;
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    color: #87c232;
+    font-size: 200%;
+    line-height: 5px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.col {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.info {
+    width: 55%;
+    border: solid #474a4e 1px;
+}
+
+.name {
+    color: #87c232;
+    font-size: 3vw;
+    line-height: 10px;
+    margin-left: 6vh;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 1.5vw;
+    line-height: 0px;
+    margin-left: 5vw;
+}
+
+.picture {
+    width: 40%;
+    border: solid #474a4e 1px;
+    margin: 5px;
+}
+
+.close {
+    background-color: #87c232;
+    color: #ffffff;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+    font-size: 2vw;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    float: right;
+}
+
+.close:hover {
+    border: none;
+    background-color: #a00909;
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.find {
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: solid 1px #474a4e;
+    background-color: #474a4e;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 0;
+}
+
+.find:hover {
+    border: solid 1px #87c232;
+    opacity: 0.6;
+}
+
+.find_button {
+    border: solid 1px #87c232;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-size: 30px;
+    background-color: #87c232;
+    color: #ffffff;
+    padding: 5px 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+.find_button:hover {
+    border: solid 1px #608930;
+    background-color:#608930;
+}
+
+.find_button:active {
+    border: solid 1px #87c232;
+    background-color: #87c232;
+}
+
+.info {
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+.getAllUsers {
+    border: none;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #87c232;
+    color: #ffffff;
+    padding: 5px 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.getAllUsers:hover {
+    background-color:#608930;
+}
+
+.getAllUsers:active {
+    background-color: #87c232;
+}

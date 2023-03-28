@@ -1,0 +1,16 @@
+{
+  "name": "adapter",
+  "version": "1.0.0",
+  "description": "xml to json parser",
+  "main": "main.js",
+  "scripts": {
+    "run prod": "node main.js",
+    "run dev": "nodemon main.js"
+  },
+  "author": "Mane Kolibri",
+  "license": "ISC",
+  "dependencies": {
+    "json2csv": "^5.0.1",
+    "xml2json": "^0.12.0"
+  }
+}

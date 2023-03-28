@@ -1,0 +1,11 @@
+<user id="1">
+    <name>Mane</name>
+    <surname>Kolibri</surname>
+    <email>Mane.Kolibri@example.com</email>
+    <password>secret666</password>
+    <roles>
+        <role>Member</role>
+        <role>Admin</role>
+        <role>Creator</role>
+    </roles>
+</user>

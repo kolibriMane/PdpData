@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All tags</title>
+        <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/2919/2919634.svg"/>
+        <meta name="keywords" content="html, css"/>
+        <meta name="description" content="HTML tags"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mane Kolibri">
+        <meta charset="UTF8">
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 1px solid black;
+            }
+
+            tr, td {
+                border: 1px solid black;
+            }
+            area:hover, area:active, area:focus {
+                border: 5px #f00 solid;
+            }
+        </style>
+    </head>
+    <body>
+        <embed type="image/png" src="done.png">
+        <!-- I am a comment -->
+        <p>I will tell about <code>HTML,CSS</code> tegs<p>
+        <p><abbr title="It's my nickname">Kolibri</abbr> was <ins>born</ins> in <em>2000</em>...</p>
+        <address>
+            You can sent me a message,<br> my <mark>name</mark> is <del>Mane</del><a href="mailto:maneantonyan@gmail.com"> Kolibri</a>
+        </address>
+        <p>Click on "O"!<p>
+        <img src="https://images.squarespace-cdn.com/content/v1/54e64c19e4b035a09d92febb/1498483462670-EIBQ4T6505SX9RACM7AB/ke17ZwdGBToddI8pDm48kN7B_oZb4Xa1vkZELmtj_Qh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hveExjbswnAj1UrRPScjfCx8rcsak2fcGSF09K1d2vdJDrE62Fz0iFpVSFPap6Y6A/image-asset.jpeg"
+            alt="picture" usemap="#myMap" width="400" height="379">
+        <map name="myMap">
+            <area shape="rect" coords="110, 200, 200, 100" alt="Smth" href="kolibri.html">
+        </map>
+
+        <h1>About</h1>
+        <article>
+            <h2>ME</h2>
+            <p>My name is Mane</p>
+        </article>
+        <article>
+            <h2>US</h2>
+            <p>We are <cite>Instigate</cite> mobile</p>
+            <p>We are Instigate mobile</p>
+        </article>
+
+        <aside>
+            <p>You can read <b>more</b> about....</p>
+        </aside>
+        <audio controls>
+            <source src="./video" type="audio">
+            Smth went wrong
+        </audio>
+        <!-- I commented it, as my code can work incorrect cause of base
+            <base href="https://google.com/" target="_blank">
+        <a href="/imghp?hl=ru&tab=wi&ogbl">Link</a>-->
+
+        <ul>
+            <li>User <bdi>Mane</bdi>: 20 ages</li>
+            <li>User <bdi>Mary</bdi>: 23 ages</li>
+        </ul>
+
+        <bdo dir="rtl">please read right-to-left</bdo>
+        <blockquote> New paragraph here </blockquote>
+        <button type="button">Hello!</button>
+        <canvas id="myCanvas">My first canvas</canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "black";
+            ctx.beginPath();
+            ctx.moveTo(100,120);
+            ctx.lineTo(100, 180);
+            ctx.lineTo(140,240);
+            ctx.fill();
+        </script>
+
+        <table>
+            <thead>
+            <caption>Mane's table</caption>
+                <tr>
+                    <th>col 1</th>
+                    <th>col 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>value 1</td>
+                    <td>value 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Summary</td>
+                    <td>1000</td>
+                </tr>
+            </tfoot>
+        </table>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color:blue">
+            </colgroup>
+            <tr>
+                <th>Name</th>
+                <th>surname</th>
+            </tr>
+            <tr>
+                <td>Mane</td>
+                <td>Antonyan</td>
+            </tr>
+        </table>
+
+        <div class="todo">
+            <h1> To Do </h1>
+            <ul>
+                <li><data>Learn Html</data></li>
+                <li><data>Learn css</data></li>
+                <li><data>Learn JS</data></li>
+            </ul>
+        </div>
+
+        <hr>
+        <!-- Media from other sites -->
+        <iframe width="420" height="315" allowfullscreen control
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+        <br>
+
+        <!-- Video from computer -->
+        <video width="320" height="240" controls>
+            <source src="/path-in-my-computer">
+            Something went wrong)
+            Maybe can't find the video
+        </video>
+        <br>
+
+        <!-- Video from computer -->
+        <audio controls>
+            <source src="/smth_from_my_computer.ogg" type="audio/ogg">
+            <source src="/smth_from_my_computer.mp3" type="audio/mpeg">
+            Something went wrong)
+            Maybe can't find the audio
+        </audio>
+        <br>
+
+        <object data="video-path">
+            <param name="autoplay" value="true">
+        </object>
+        <!-- Plugins for media files -->
+        <object width="100%" height="500px" data="video-path">smth went wrong</object>
+        <!-- Embed not way to print error message -->
+        <embed src="audi.jpeg">
+        <br>
+
+        <figure>
+            <img src="done.png" alt="Nkar only" style="width:20%">
+            <figcaption>I done lesson, I have this</figcaption>
+        </figure>
+
+        <hr>
+        <div class="allHeaders">
+            <h1>Hello 1</h1>
+            <h2>Hello 2</h2>
+            <h3>Hello 3</h3>
+            <h4>Hello 4</h4>
+            <h5>Hello 5</h5>
+            <h6>Hello 6</h6>
+        </div>
+        <article>
+            <main>
+                <Summary>Very important part<Summary>
+                <header>Web programming</header>
+                <p>If you want to be web-programmer, you must learn at first <dfn title="HyperText Markup Language">HTML</dfn> and <dfn>CSS</dfn></p>
+                <footer>
+                    <detail><dfn title="HyperText Markup Language">HTML</dfn> and <dfn>CSS</dfn> are web basic languages, that you must learn </detail>
+                </footer>
+            </main>
+        </article>
+        <p><i>Italic</i> font now you see!</p>
+       <dialog open>So...do you also with me?</dialog>
+        <!--If dialog not opened, yu can't see in screem-->
+        <dialog>So...do you also with me?</dialog>
+
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy this text</p>
+        <dl>
+            <dt>Web site</dt>
+            <dd>html, css, js</dd>
+            <dt>Android</dt>
+            <dd>java</dd>
+        </dl>
+
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="black" />
+        </svg>
+
+        <nav>
+            <a href="./table.html">Tables</a> |
+            <a href="./kolibri.html">kolibri</a> |
+        </nav>
+
+        <p>I like <wbr>C++</wbr> and <wbr>Python</wbr></p>
+        <pre>
+            Սկսվում է գիշերն արդեն:
+            Եվ աստղերը,
+            Որ ողջ ցերեկ խոր քուն մտան,
+            Հիմա իրենց ճառագայթե
+            Սուր փշերն են ոզնու նման նորից ցցում`
+            Ընդդեմ մթան:
+        </pre>
+
+        <label for="prog">How <q>much</q> I am tired:</label>
+        <progress id="prog" value="99" max="100"> 97% </progress> <br>
+
+
+        <select name="good things" id="eat" onselect="output.value=eat.value">
+            <optgroup label="Fruits">
+              <option value="apple">apple</option>
+              <option value="range">orange</option>
+            </optgroup>
+            <optgroup label="Vegitables">
+              <option value="potato">potato</option>
+              <option value="tomato">tomato</option>
+            </optgroup>
+          </select>
+          <output name="output" for="eat">selected</output>
+
+        <script>
+            document.write("Is js your favorite language?")
+        </script>
+        <noscript>Your script can't find</noscript><br>
+
+        <label for="tired"><b>How much I am tired:</b></label>
+        <meter id="tired" value="10" min="0" max="10">11 out of 10</meter><br>
+        <label for="tired"><b>How much homework I have done:</b></label>
+        <meter id="tired" value="8" min="0" max="10">11 out of 10</meter><br>
+        <form method="POST">
+            <fieldset>
+                <legend>About you</legend>
+                <label for="name" placeholder="Enter name*" required>Name:</label>
+                <input type="text" id="name"><br>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname"><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email"><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday"><br>
+                <label for="age">Age:</label>
+                <input id="age" type="number" max="150" min="1" value="18">
+                <textarea>Enter smth about you</textarea><br>
+                <input type="submit" id="select" value="Submit"><br>
+            </fieldset>
+        </form>
+        <p>Matematich is <sub>fun</sub>, be happy</p>
+        <p>(x + y)<sup>2</sup> = x<sup>2</sup> + 2xy + y<sup>2</sup></p>
+        <picture>
+            <source media="(min-width:650px)" srcset="done.png">
+            <source media="(min-width:400px)" srcset="https://image.flaticon.com/icons/svg/2919/2919634.svg">
+            <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+        </picture>
+        <ruby>
+            漢
+            <rt>
+                <rp>(</rp>ㄏㄢˋ<rp>)</rp>
+            </rt>
+        </ruby>
+        <p>Learn <span style="color:red">HTML</span> and css</p>
+
+        <p><s>Mane</s></p>
+        <p>Kolibri</p>
+        <strong>Important text</strong>
+        <p><small>Kolibri is my nickname</small></p>
+        <p><samp>File is over<br>Press Exit to finish job....</samp></p>
+        <p>Now <time>3:57</time> in the <u>morning</u></p>
+        <p><var>x</var> is not null</p>
+    </body>
+    <footer>
+    </footer>
+</html>

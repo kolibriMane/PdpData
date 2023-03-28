@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <title>Medicio Bootstrap Theme Demo</title>
+        <!-- For scroll animations -->
+        <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+        <script src="bower_components/aos/dist/aos.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./src/icon.png"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF8">
+        <meta name="keywords" content="bootstrap, made, medico"/>
+        <meta name="description" content="bootstrap, made, medico"/>
+        <meta name="viewport" content="width=device-width, init-scale=1.0">
+        <meta name="author" content="Mane Kolibri">
+        <meta name="og:title" property="og:title" content="medico">
+        <meta property="og:description" content="bootstrap, made, medico"/>
+        <meta property="og:site_name" content="bootstrap, made, medico" />
+        <meta name="twitter:title" content="medico">
+        <meta name="twitter:description" content="bootstrap, made, medico">
+        <script>
+
+
+            function getPrev() {
+                var value = document.getElementById("carousel").getAttribute("value");
+                if (value === "1") {
+                    document.getElementById("carousel").setAttribute("value", "3");
+                    document.getElementById("image").setAttribute("src", "./src/doctor3.jpg");
+                    document.getElementById("header").innerHTML = "Lorem Ipsum Dolor";
+                } else if (value === "2") {
+                    document.getElementById("carousel").setAttribute("value", "1");
+                    document.getElementById("image").setAttribute("src", "./src/doctor1.jpg");
+                    document.getElementById("header").innerHTML = "Welcome to Medicio";
+                } else if (value === "3"){
+                    document.getElementById("carousel").setAttribute("value", "2");
+                    document.getElementById("image").setAttribute("src", './src/doctor2.jpg');
+                    document.getElementById("header").innerHTML = "Sequi ea ut et est quaerat";
+                }
+            };
+
+            function getNext() {
+                var value = document.getElementById("carousel").getAttribute("value");
+                if (value === "2") {
+                    document.getElementById("carousel").setAttribute("value", "3");
+                    document.getElementById("image").setAttribute("src", "./src/doctor3.jpg");
+                    document.getElementById("header").innerHTML = "Lorem Ipsum Dolor";
+                } else if (value === "3") {
+                    document.getElementById("carousel").setAttribute("value", "1");
+                    document.getElementById("image").setAttribute("src", "./src/doctor1.jpg");
+                    document.getElementById("header").innerHTML = "Welcome to Medicio";
+                } else if (value === "1"){
+                    document.getElementById("carousel").setAttribute("value", "2");
+                    document.getElementById("image").setAttribute("src", './src/doctor2.jpg');
+                    document.getElementById("header").innerHTML = "Sequi ea ut et est quaerat";
+                }
+            };
+
+            function change(value) {
+                if (value === "1") {
+                    document.getElementById("picture").setAttribute("src", './src/pic1.png');
+                    document.getElementById("dep_header").innerHTML = document.getElementById("1").textContent;
+                    document.getElementById("one").style.border = "solid 4px rgb(148, 146, 146)";
+                } else if (value === "2") {
+                    document.getElementById("picture").setAttribute("src", './src/pic2.png');
+                    document.getElementById("dep_header").innerHTML = document.getElementById("2").textContent;
+                    document.getElementById("two").style.border = "solid 4px rgb(148, 146, 146)";
+                } else if (value === "3") {
+                    document.getElementById("picture").setAttribute("src", './src/pic3.png');
+                    document.getElementById("dep_header").innerHTML = document.getElementById("3").textContent;
+                    document.getElementById("three").style.border = "solid 4px rgb(148, 146, 146)";
+                } else if (value === "4") {
+                    document.getElementById("picture").setAttribute("src", './src/pic4.png');
+                    document.getElementById("dep_header").innerHTML = document.getElementById("4").textContent;
+                    document.getElementById("four").style.border = "solid 4px rgb(148, 146, 146)";
+                }
+            }
+        </script>
+    </head>
+<body>
+    <header class="init">
+        <div id="init_item_one" class="init_item_one">
+            <div class="init_left">
+                <img class="init_button" src="src/logo.png" title="Back to BootstrapThemes.io Homepage">
+            </div>
+            <div class="init_right">
+                <button class="button init_elem" src="src/logo.png" title="Hide the demo bar">...</button>
+                <button class="button init_elem" title="Medicio Theme Home Page">...</button>
+                <button class="button init_elem init_download" title="Download the Medicio Theme">Free Download</button>
+                <button class="button init_elem init_bold" title="Previous Theme: Mentor"><</button>
+                <button class="button init_elem init_bold" title="Next Theme: MyResume">></button>
+            </div>
+        </div>
+        <div id="init_item_two" class="init_item_two">
+            <div class="init_left_two">
+                <p>Monday - Saturday, 8AM to 10PM</p>
+            </div>
+            <div class="init_right_two">
+                <p>Call us now +1 5589 55488 55</p>
+            </div>
+        </div>
+        <div class="init_item_three" id="init_item_three">
+            <div class="init_right_three">
+                <img src="src/medicio.png" title="Back to BootstrapThemes.io Homepage">
+            </div>
+            <div class="init_left_three">
+                <a class="three_elem" href="#image">HOME</a>
+                <a class="three_elem" href="#about">ABOUT</a>
+                <a class="three_elem" href="#services">SERVICES</a>
+                <a class="three_elem" href="#departments">DEPARTMENTS</a>
+                <a class="three_elem" href="#doctors">DOCTORS</a>
+                <a class="three_elem" href="#contact">CONTACT</a>
+                <button class="button three_button">
+                    <a class="link" href="#make">Make an Appointment</a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="main" id="main" onscroll="window.scroll()">
+        <div class="head">
+            <img id="image" src="./src/doctor1.jpg" width="100%">
+            <div id="carousel" value="1">
+                <div onclick="window.getPrev()" class="pointer button prev">
+                    <code><</code>
+                </div>
+                <div class="carousel_text">
+                    <h1 id="header">Welcome to Medicio</h1>
+                    <p class="text">Ut velit est quam dolor ad a aliquid qui aliquid.
+                        Sequi ea ut et est quaerat sequi nihil ut aliquam.
+                        Occaecati alias dolorem mollitia ut. Similique ea voluptatem.
+                        Esse doloremque accusamus repellendus deleniti vel.
+                    </p>
+                    <button href="#about" class="button init_download read_more">Read more</button>
+                </div>
+                <div onclick="window.getNext()" class="pointer button next">
+                    <code>></code>
+                </div>
+            </div>
+        </div>
+        <div class="other">
+            <div class="other_elem"  data-aos="fade-up">
+                <h1 class="icon">?</h1>
+                <h2>Lorem Ipsum</h2>
+                <p>Voluptatum deleniti atque corrupti quos
+                    dolores et quas molestias excepturi
+                </p>
+            </div>
+            <div class="other_elem" data-aos="fade-up">
+                <h1 class="icon">?</h1>
+                <h2>Sed ut perspiciatis</h2>
+                <p>
+                    Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore
+                </p>
+            </div>
+            <div class="other_elem" data-aos="fade-up">
+                <h1 class="icon">?</h1>
+                <h2>Magni Dolores</h2>
+                <p>
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia
+                </p>
+            </div>
+            <div class="other_elem" data-aos="fade-up">
+                <h1 class="icon">?</h1>
+                <h2>Nemo Enim</h2>
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos
+                    ducimus qui blanditiis
+                </p>
+            </div>
+        </div>
+        <div class="appoint" data-aos="zoom-in">
+            <h1>In an emergency? Need help now?</h1>
+            <p class="appoint_text">
+                Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+            <button class="make_button">Make an Make an Appointment</button>
+        </div>
+        <div class="about" id="about">
+            <h1 class="about_header" data-aos="fade-up">ABOUT US</h1>
+            <h1 class="about_header_blue" data-aos="fade-up">______</h1>
+            <p data-aos="fade-up" class="about_text">
+                Magnam dolores commodi suscipit. Necessitatibus
+                eius consequatur ex aliquid fuga eum quidem. Sit
+                sint consectetur velit. Quisquam quos quisquam cupiditate.
+                Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+                in iste officiis commodi quidem hic quas.
+            </p>
+            <div class="column">
+                <img class="about_image" id="about_image" data-aos="fade-right"
+                    src="./src/building.png" width="30%">
+                <div class="row"  data-aos="fade-left">
+                    <h2 class="row_head">
+                        Voluptatem dignissimos provident quasi
+                        corporis voluptates sit assumenda.
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit.
+                    </p>
+                    <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit
+                        esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="percent">
+            <div class="percent_elem" data-aos="fade-up">
+                <h1 class="icon">85</h1>
+                <p>
+                    <b>Doctors</b> consequuntur quae qui deca rode
+                </p>
+                <a class="find_elem" href="#image">Find out more »</a>
+            </div>
+            <div class="percent_elem" data-aos="fade-up">
+                <h1 class="icon">18</h1>
+                <p>
+                    <b>Departments</b> adipisci atque cum quia aut numquam delectus
+                </p>
+                <a class="find_elem" href="#image">Find out more »</a>
+            </div>
+            <div class="percent_elem" data-aos="fade-up">
+                <h1 class="icon">8</h1>
+                <p>
+                    <b>Research</b> Lab aut commodi quaerat. Aliquam ratione
+                </p>
+                <a class="find_elem" href="#image">Find out more »</a>
+            </div>
+            <div class="percent_elem" data-aos="fade-up">
+                <h1 class="icon">150</h1>
+                <p>
+                    <b>Awards</b> rerum asperiores dolor molestiae doloribu
+                </p>
+                <a class="find_elem" href="#image">Find out more »</a>
+            </div>
+        </div>
+        <div class="column" data-aos="fade-left">
+            <div class="lab_row">
+                <h3 class="lab_head">Est labore ad</h3>
+                <p class="column_text">
+                    Consequuntur sunt aut quasi enim aliquam
+                    quae harum pariatur laboris nisi ut aliquip
+                </p>
+                <h3 class="lab_head">Harum esse qui</h3>
+                <p class="column_text">
+                    Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt
+                </p>
+                <h3 class="lab_head">Aut occaecati</h3>
+                <p class="column_text">
+                    Consequuntur sunt aut quasi enim aliquam
+                    quae harum pariatur laboris nisi ut aliquip
+                </p>
+                <h3 class="lab_head">Est labore ad</h3>
+                <p class="column_text">
+                    Aut suscipit aut cum nemo deleniti aut omnis.
+                    Doloribus ut maiores omnis facere
+                </p>
+            </div>
+            <img class="lab_image" id="lab_image" data-aos="zoom-in-up"
+                src="./src/lab.png" width="30%">
+        </div>
+        <div class="services" id="services">
+            <h1 class="services_header" data-aos="fade-up">SERVICES</h1>
+            <h1 class="about_header_blue" data-aos="fade-up">______</h1>
+            <p data-aos="fade-up" class="services_text">
+                Magnam dolores commodi suscipit. Necessitatibus
+                eius consequatur ex aliquid fuga eum quidem. Sit
+                sint consectetur velit. Quisquam quos quisquam cupiditate.
+                Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+                in iste officiis commodi quidem hic quas.
+            </p>
+            <div class="serv_column">
+                <div class="serv_row">
+                    <div data-aos="zoom-in">
+                        <img class="services_image" id="services_image"
+                            src="./src/hurt.jpg">
+                        <h3>
+                            <a class="link serv_head" href="#image">Lorem Ipsum</a>
+                        </h3>
+                        <h1 class="serv_blue">______</h1>
+                        <p class="serv_text">
+                            Voluptatum deleniti atque corrupti quos dolores et quas
+                            molestias excepturi sint occaecati cupiditate non provident
+                        </p>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <img class="services_image" id="services_image"
+                            src="./src/hurt.jpg">
+                        <h3>
+                            <a href="#image" class="link serv_head">Dolor Sitema</a>
+                        </h3>
+                        <h1 class="serv_blue">______</h1>
+                        <p class="serv_text">
+                            Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat tarad limino ata
+                        </p>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <img class="services_image" id="services_image"
+                            src="./src/hurt.jpg">
+                        <h3>
+                            <a href="#image" class="link serv_head">Sed ut perspiciatis</a>
+                        </h3>
+                        <h1 class="serv_blue">______</h1>
+                        <p class="serv_text">
+                            Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur
+                        </p>
+                    </div>
+                </div>
+                <div class="serv_row">
+                    <div data-aos="zoom-in">
+                        <img class="services_image" id="services_image"
+                            src="./src/hurt.jpg">
+                        <h3>
+                            <a class="link serv_head" href="#image">Magni Dolores</a>
+                        </h3>
+                        <h1 class="serv_blue">______</h1>
+                        <p class="serv_text">
+                            Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum
+                        </p>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <img class="services_image" id="services_image"
+                            src="./src/hurt.jpg">
+                        <h3>
+                            <a href="#image" class="link serv_head">Nemo Enim</a>
+                        </h3>
+                        <h1 class="serv_blue">______</h1>
+                        <p class="serv_text">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus
+                            qui blanditiis praesentium voluptatum deleniti atque
+                        </p>
+                    </div>
+                    <div data-aos="zoom-in">
+                        <img class="services_image" id="services_image"
+                            src="./src/hurt.jpg">
+                        <h3>
+                            <a href="#image" class="link serv_head">Eiusmod Tempor</a>
+                        </h3>
+                        <h1 class="serv_blue">______</h1>
+                        <p class="serv_text">
+                            Et harum quidem rerum facilis est et expedita distinctio.
+                            Nam libero tempore, cum soluta nobis est eligendi
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form" id="make">
+            <h1 data-aos="fade-up">MAKE AN APPOINTMENT</h1>
+            <h1 class="about_header_blue">______</h1>
+            <p data-aos="fade-up" class="form_text">
+                Magnam dolores commodi suscipit. Necessitatibus eius
+                consequatur ex aliquid fuga eum quidem. Sit sint
+                consectetur velit. Quisquam quos quisquam cupiditate.
+                Et nemo qui impedit suscipit alias ea. Quia fugiat
+                sit in iste officiis commodi quidem hic quas.
+            </p>
+            <form class="column form" action="POST">
+                <div>
+                    <input type="text" placeholder="Your name" class="form_input">
+                    <input type="email" placeholder="Your email" class="form_input">
+                    <input type="number" placeholder="Your phone" class="form_input">
+                </div>
+                <div>
+                    <input type="text" placeholder="Appointment data" class="form_input">
+                    <select placeholder="Select Department" class="form_input">
+                        <option value="Select Department">Select Department</option>
+                        <option value="Department 1">Department 1</option>
+                        <option value="Department 2">Department 2</option>
+                        <option value="Department 3">Department 3</option>
+                    </select>
+                    <select placeholder="Select Doctor" class="form_input">
+                        <option value="Select Doctor">Select Doctor</option>
+                        <option value="Doctor 1">Doctor 1</option>
+                        <option value="Doctor 2">Doctor 2</option>
+                        <option value="Doctor 3">Doctor 3</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea placeholder="Message(Optional)..." class="form_input text_area">
+                    </textarea>
+                </div>
+                <button data-aos="fade-up" class="form_button">Make an Appointment</button>
+            </form>
+        </div>
+        <div class="serv_row departments" is="departments" data-aos="fade-left">
+            <div class="column">
+                <div class="card" value="1" onclick="window.change('1')" id="one">
+                    <h2 id="1" class="dep_header" name="Cardiology">Cardiology</h2>
+                    <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
+                </div>
+                <div class="card" value="2" onclick="window.change('2')" id="two">
+                    <h2 id="2" class="dep_header" name="Neurology">Neurology</h2>
+                    <p>Voluptas vel esse repudiandae quo excepturi.</p>
+                </div>
+                <div class="card" value="3" onclick="window.change('3')" id="three">
+                    <h2 id="3" class="dep_header" name="Hepatology">Hepatology</h2>
+                    <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
+                </div>
+                <div class="card" value="4" onclick="window.change('4')" id="four">
+                    <h2 id="4" class="dep_header" name="Pediatrics">Pediatrics</h2>
+                    <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
+                </div>
+            </div>
+            <div class="right_col">
+                <h1 class="dep_header" id="dep_header">Cardiology</h1>
+                <i class="block">
+                    Qui laudantium consequatur laborum sit qui ad sapiente
+                    dila parde sonata raqer a videna mareta paulona marka
+                </i>
+                <div class="serv_row block">
+                    <img id="picture" class="small_pic" src="src/pic1.png" width="20%">
+                    <p>
+                        Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint.
+                        Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui.
+                        Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem
+                        quaerat quos qui similique accusamus nostrum rem vero
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function scroll() {
+            document.getElementById("init_item_one").style = "border-bottom: solid rgb(189, 186, 186) 1px;";
+            document.getElementById("init_item_two").style.display = "none";
+            document.getElementById("init_item_three").style = "padding-top: 5px";
+            document.getElementById("main").style.top = "120px";
+            AOS.init({
+                offset: 200,
+                duration: 800,
+                easing: 'ease-in-quad',
+                delay: 100,
+            });
+        };
+    </script>
+</body>

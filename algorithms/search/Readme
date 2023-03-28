@@ -1,0 +1,27 @@
+/***************************************************/
+/*                                                 */
+/*   Welcome to Mane Antonyan's homeworks folder   */
+/*                                                 */
+/***************************************************/
+
+#GETTING STARTED
+
+    - Start work
+        -- make        // Execute codes
+    - Execute
+        -- make binary // Binary Search
+        -- make jump   // Jump Search
+        -- make linear // Linear Search
+        -- make expon  // Exponential Search
+        -- make tern   // Ternary Search
+        -- make inter  // Interpolation Search
+    - End work
+        -- make clean  // Clean build directory
+
+#DIRECTORY STRUCTURE
+    .
+    ├── func.cpp
+    ├── func.h
+    ├── main.cpp
+    ├── Makefile
+    └── Readme

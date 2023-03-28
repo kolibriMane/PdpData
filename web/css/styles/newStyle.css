@@ -1,0 +1,27 @@
+ul  {
+    list-style: square inside url("images.jpeg");
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+#section1 {
+    height: 600px;
+    background-color: pink;
+}
+
+#section2 {
+    height: 600px;
+    background-color: yellow;
+}
+
+#t1 {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+#t2 {
+    -moz-tab-size: 16;
+    -o-tab-size: 16;
+    tab-size: 16;
+}

@@ -1,0 +1,17 @@
+{"peoplesData": [
+    {"id": "1", "name": "Lilia", "surname": "Kirakosyan", "age": 28, "job": "developer", "image":"./src/9.jpg", "cityID": 1, "officeID": 2},
+    {"id": "2", "name": "Anahit", "surname": "Karhanyan", "age": 26, "job": "developer", "image":"./src/14.jpg", "cityID": 2, "officeID": 6},
+    {"id": "3", "name": "Lusine", "surname": "Sakanyan", "age": 45, "job": "teacher", "image":"./src/13.jpg", "cityID": 2, "officeID": 1},
+    {"id": "4", "name": "Nelli", "surname": "Zarinyan", "age": 21, "job": "teacher", "image":"./src/10.jpg", "cityID": 4, "officeID": 3},
+    {"id": "5", "name": "Hakob", "surname": "Alaverdyan", "age": 16, "job": "", "image":"./src/5.jpg", "cityID": 1, "officeID": 5},
+    {"id": "6", "name": "Aida", "surname": "Aslikyan", "age": 20, "job": "developer", "image":"./src/8.jpg", "cityID": 3, "officeID": 3},
+    {"id": "7", "name": "Anna", "surname": "Amiryan", "age": 18, "job": "", "image":"./src/7.jpg", "cityID": 4, "officeID": 4},
+    {"id": "8", "name": "Arthur", "surname": "Eghiazaryan", "age": 32, "job": "doctor", "image":"./src/6.jpg", "cityID": 5, "officeID": 5},
+    {"id": "9", "name": "Lala", "surname": "Mnacakanyan", "age": 44, "job": "doctor", "image":"./src/1.jpg", "cityID": 6, "officeID": 6},
+    {"id": "10", "name": "Ani", "surname": "Begoyan", "age": 26, "job": "police", "image":"./src/4.jpg", "cityID": 1, "officeID": 1},
+    {"id": "11", "name": "Katherina", "surname": "Sue", "age": 22, "job": "police", "image":"./src/15.jpg", "cityID": 1, "officeID": 5},
+    {"id": "12", "name": "Lulu", "surname": "de Lipa", "age": 17, "job": "", "image":"./src/11.jpg", "cityID": 4, "officeID": 3},
+    {"id": "13", "name": "Sofia", "surname": "Kapri", "age": 26, "job": "teacher", "image":"./src/12.jpg", "cityID": 6, "officeID": 3},
+    {"id": "14", "name": "Mane", "surname": "Kolibri", "age": 20, "job": "progremmer", "image":"./src/2.jpg", "cityID": 6, "officeID": 5}
+  ]
+}

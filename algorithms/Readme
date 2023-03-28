@@ -1,0 +1,3 @@
+Compile the project: make
+Execute the project: make run
+Delete unless files: make clean

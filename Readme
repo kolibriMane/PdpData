@@ -1,0 +1,94 @@
+/***************************************************/
+/*                                                 */
+/*   Welcome to Mane Antonyan's pdp data foulder   */
+/*                                                 */
+/***************************************************/
+
+
+# Directory structure
+
+.
+├── algorithms
+│   ├── belmanFord
+│   ├── fibonacci
+│   ├── graf
+│   ├── hamilton
+│   ├── matrices
+│   ├── merge
+│   ├── mergeSort
+│   ├── possibleWaysConstructBuildings
+│   ├── quickSort
+│   ├── Readme
+│   ├── search
+│   ├── shellSort
+│   ├── sortTimes
+│   ├── stringDiff
+│   ├── uglyNumber
+│   └── uglyNumberUpdated
+├── assembly
+│   ├── hello
+│   ├── printDigit
+│   ├── printNumber
+│   ├── printString
+│   ├── some tests
+│   ├── sum
+│   ├── sumFinal
+│   └── tests
+├── bash
+│   ├── 18.05
+│   ├── 19.05
+│   ├── 20.05
+│   ├── 21.05
+│   │   ├── classwork
+│   │   └── homework
+│   └── examples
+├── c++
+│   ├── 01.06.2020
+│   ├── 02.06.2020
+│   ├── 04.06.2020
+│   │   └── linkedList
+│   ├── 05.06.2020
+│   │   └── queue
+│   ├── 08.06.2020
+│   │   └── queueWithTemplates
+│   ├── 09.06.2020
+│   │   ├── classwork
+│   │   └── homework
+│   │       └── queueWithErrorHandling
+│   ├── 10.06.2020
+│   │   ├── image
+│   │   ├── operator
+│   │   └── reverseFile
+│   ├── 11.06.2020
+│   │   ├── classwork
+│   │   └── homework
+│   │       └── linkedListAsync
+│   └── 12.06.2020
+│       └── clientServer
+├── documentation
+│   └── documentation.odt
+├── doxygen
+│   ├── array.cpp
+│   ├── array.h
+│   ├── documentation
+│   └── main.cpp
+├── exam
+│   ├── build
+│   └── Readme
+├── mySQL
+│   ├── database.sql
+│   ├── deleteConnection.sql
+│   ├── queries.sql
+│   └── sum.sql
+├── python
+│   ├── day1
+│   ├── day2-3
+│   ├── day4
+│   └── day5
+├── Readme
+└── STL
+    ├── binaryTree
+    ├── calculator
+    ├── list
+    ├── stack
+    └── vector

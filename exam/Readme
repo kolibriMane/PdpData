@@ -1,0 +1,22 @@
+/************************************************/
+/*                                              */
+/*   Welcome to Mane Antonyan's exam folder     */
+/*                                              */
+/************************************************/
+
+#GETTING STARTED
+
+    - Start work
+        -- make        // Execute codes
+    - Execute
+        -- make run    // run the code
+    - End work
+        -- make clean  // Clean build directory
+
+#DIRECTORY STRUCTURE
+    .
+    ├── func.cpp
+    ├── func.h
+    ├── main.cpp
+    ├── Makefile
+    └── Readme

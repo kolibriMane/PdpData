@@ -1,0 +1,256 @@
+* {
+    color: green;
+}
+
+div ~ p {
+    background-color: whitesmoke;
+}
+
+.main {
+    background-color: black;
+}
+
+.big.block {
+    background-color: red;
+}
+
+.big .text {
+    color: yellow;
+}
+
+#hell {
+    color: white;
+}
+
+span {
+    background-color: tomato;
+    color: black;
+}
+
+span.white {
+    color: white;
+}
+
+b, strong {
+    color: brown;
+}
+
+p i {
+    color: cyan;
+}
+
+input:enabled {
+    background-color: rgb(77, 75, 75);
+}
+
+div > p {
+    font-size: 50px;
+}
+
+span + p {
+    font-size: 26px;
+    font-style: italic;
+}
+
+[disabled] {
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+[title~=input] {
+    border: solid 2px yellow;
+}
+
+[type=number] {
+    border: solid 2px red;
+}
+
+input[type^="te"] {
+    background-color: rgb(71, 15, 71);
+}
+
+[type|="nu"] {
+    background-color: rgb(20, 122, 16);
+} /* Didn't work in my browser */
+
+span[class$="te"] {
+    background-color: rgb(20, 122, 16);
+}
+
+button[title*="soon"] {
+    width: 80px;
+    height: 80px;
+}
+
+button:active {
+    background-color: yellow;
+}
+
+div::after {
+    color: white;
+    background-color: black;
+    content: " Div over!";
+}
+
+div::before {
+    background-color: black;
+    content: "Now Div -> ";
+    color: white;
+}
+
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+input:default {
+    box-shadow: 0 0 1px 1px red;
+}
+
+input:disabled {
+    width: 100px;
+    height: 50px;
+    background-color: salmon;
+}
+
+p:empty {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+p:first-child {
+    background-color: teal;
+}
+
+p::first-letter {
+    background-color: blue;
+}
+
+p::first-line {
+    background-color: rgb(179, 89, 107);
+}
+
+p:first-of-type {
+    color: rgb(161, 161, 161);
+}
+
+input:focus {
+    border: solid 1px royalblue;
+}
+
+button:hover {
+    background-color: red;
+}
+
+input:in-range {
+    background-color: yellow;
+}
+
+input:indeterminate {
+    width: 20px;
+    height: 20px;
+}
+
+input:invalid {
+    border-radius: 25%;
+}
+
+input:lang(en) {
+    color: teal;
+}
+
+p:last-child {
+    color: tomato;
+    background-color: turquoise;
+}
+
+p:last-of-type {
+    color: tomato;
+    background-color: black;
+}
+
+a:link {
+    color: white;
+    font-size: large;
+}
+
+:not(p) {
+    font-style: italic;
+}
+
+p:nth-child(2) {
+    background: red;
+}
+
+.hello {
+    font-size: initial;
+}
+
+p:nth-last-child(2) {
+    background-color: lawngreen;
+}
+
+p:nth-last-of-type(2) {
+    background: rgb(25, 40, 175);
+}
+
+p:nth-of-type(2) {
+    background: rgb(243, 104, 11);
+}
+
+p:only-of-type {
+    font-weight: bold;
+}
+
+p:only-child {
+    background: red;
+}
+
+input:optional {
+    border: red;
+}
+
+input:out-of-range {
+    border: 2px solid red;
+}
+
+#inp {
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+}
+
+input::placeholder {
+    color: red;
+}
+
+input:read-only {
+    background-color: yellow;
+}
+
+input:read-write {
+    background-color: white;
+}
+
+input:required {
+    background-color: rgb(212, 212, 49);
+}
+
+:root {
+    background: #ff0000;
+}
+
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+}
+
+input:valid {
+    background-color: yellow;
+}
+
+a:visited {
+    color: yellow;
+}

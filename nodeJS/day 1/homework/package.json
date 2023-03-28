@@ -1,0 +1,12 @@
+{
+  "name": "get-users",
+  "version": "1.0.0",
+  "description": "Get users by request",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Mane Kolibri",
+  "license": "ISC"
+}

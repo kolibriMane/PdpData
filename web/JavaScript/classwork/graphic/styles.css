@@ -1,0 +1,13 @@
+#main {
+    background-color: rgb(250, 243, 243);
+    width: 1000px;
+    height: 500px;
+    border-left: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+div {
+    margin: 0 10px;
+    display: flex;
+    align-self: flex-end;
+}

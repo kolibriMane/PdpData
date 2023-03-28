@@ -1,0 +1,8 @@
+{ "offices": [
+    {"id": "1",  "name": "Instigate"},
+    {"id": "2",  "name": "VanIT"},
+    {"id": "3",  "name": "Paradise"},
+    {"id": "4",  "name": "Solid"},
+    {"id": "5",  "name": "Mystic Grill"},
+    {"id": "6",  "name": "Shadow"}
+]}

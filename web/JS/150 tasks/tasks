@@ -1,0 +1,75 @@
+
+
+
+31. find the largest of three given integers.
+32. find a value which is nearest to 100 from two different given integer values.
+33. check whether two numbers are in range 40..60 or in the range 70..100 inclusive.
+34. find the larger number from the two given positive integers, the two numbers are in the range 40..60 inclusive.
+35. Write a program to check whether a specified character exists within the 2nd to 4th position in a given string.
+36. check whether the last digit of the three given positive integers is same.
+37. create new string with first 3 characters are in lower case from a given string. If the string length is less than 3 convert all the characters in upper case.
+38. check the total marks of a student in various examinations. The student will get A+ grade if the total marks are in the range 89..100 inclusive, if the examination is "Final-exam." the student will get A+ grade and total marks must be greater than or equal to 90. Return true if the student get A+ grade or false otherwise.
+39. compute the sum of the two given integers, If the sum is in the range 50..80 return 65 other wise return 80.
+40. check from two given integers whether one of them is 8 or their sum or difference is 8.
+41. check three given numbers, if the three numbers are same return 30 otherwise return 20 and if two numbers are same return 40.
+42. check whether three given numbers are increasing in strict mode or in soft mode.
+Note: Strict mode -> 10, 15, 31 : Soft mode -> 24, 22, 31 or 22, 22, 31
+
+43. check from three given numbers (non negative integers) that two or all of them have the same rightmost digit.
+44. check from three given integers that whether a number is greater than or equal to 20 and less than one of the others.
+45. check two given integer values and return true if one of the number is 15 or if their sum or difference is 15.
+46. check two given non-negative integers that whether one of the number (not both) is multiple of 7 or 11.
+47. check whether a given number is presents in the range 40..10000.
+For example 40 presents in 40 and 4000
+
+48. reverse a given string.
+49. replace every character in a given string with the character following it in the alphabet.
+50. capitalize the first letter of each word of a given string.
+51. convert a given number to hours and minutes.
+52. convert the letters of a given string in alphabetical order.
+53. check whether the characters a and b are separated by exactly 3 places anywhere (at least once) in a given string.
+54. count the number of vowels in a given string.
+55. check whether a given string contains equal number of p's and t's.
+56. divide two positive numbers and return a string with properly formatted commas.
+57. create a new string of specified copies (positive number) of a given string.
+58. create a new string of 4 copies of the last 3 characters of a given original string. The length of the given string must be 3 and above.
+59. extract the first half of a string of even length.
+60. create a new string without the first and last character of a given string.
+61. concatenate two strings except their first character.
+62. move last three character to the start of a given string. The string length must be greater or equal to three.
+63. create a string using the middle three characters of a given string of odd length. The string length must be greater or equal to three.
+64. concatenate two strings and return the result. If the length of the strings are not same then remove the characters from the longer string.
+65. test whether a string end with "Script". The string length must be greater or equal to 6.
+66. display the city name if the string begins with "Los" or "New" otherwise return blank.
+67. create a new string from a given string, removing the first and last characters of the string if the first or last character are 'P'. Return the original string if the condition is not satisfied.
+68. create a new string using the first and last n characters from a given sting. The string length must be greater or equal to n.
+69. compute the sum of three elements of a given array of integers of length 3.
+70. rotate the elements left of a given array of integers of length 3.
+71. check whether 1 appears in first or last position of a given array of integers. The array length must be greater or equal to 1.
+72. check whether the first and last elements are equal of a given array of integers length 3.
+73. reverse the elements of a given array of integers length 3.
+74. find the larger value between the first or last and set all the other elements with that value. Display the new array.
+75. create a new array taking the middle elements of the two arrays of integer and each length 3.
+76. create a new array taking the first and last elements from a given array of integers and length must be greater or equal to 1.
+77. test whether an array of integers of length 2 contains 1 or a 3.
+78. test whether an array of integers of length 2 does not contain 1 or a 3.
+79. test whether a given array of integers contains 30 and 40 twice. The array length should be 0, 1, or 2.
+80. swap the first and last elements of a given array of integers. The array length should be at least 1.
+81. add two digits of a given positive integer of length two.
+82. Write a JavaScript to add two positive integers without carry.
+83. Write a JavaScript to find the longest string from a given array of strings.
+84. Write a JavaScript to replace each character of a given string by the next one in the English alphabet.
+Note: 'a' will be replace by 'b' or 'z' would be replaced by 'a'.
+
+85. Write a JavaScript code to divide a given array of positive integers into two parts. First element goes to first part, second element goes to second part, and third element goes to first part and so on. Now compute the sum of two parts and store into an array of size two.
+86. find the types of a given angle.
+Types of angles:
+Acute angle: An angle between 0 and 90 degrees.
+Right angle: An 90 degree angle.
+Obtuse angle: An angle between 90 and 180 degrees.
+Straight angle: A 180 degree angle.
+87. check whether two arrays of integers of same length are similar or not. The arrays will be similar if one array can be obtained from another array by swapping at most one pair of elements.
+88. check whether two given integers are similar or not, if a given divisor divides both integers and it does not divide either.
+89. check whether it is possible to replace $ in a given expression x $ y = z with one of the four sig...
+Collapse
+

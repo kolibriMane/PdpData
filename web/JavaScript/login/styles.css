@@ -1,0 +1,78 @@
+.body {
+    background: #222529;
+    background-size: 100% auto;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    flex-direction: row;
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    background-color: #474a4e;
+    border: solid #474a4e 1px;
+    opacity: 0.5;
+    width: 50%;
+    color: #ffffff;
+}
+
+.form:hover {
+    opacity: 0.6;
+    border: solid #608930 1px;
+}
+
+.login {
+    height: 60px;
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 12px 20px;
+    border: solid 1px #ccc;
+    box-sizing: border-box;
+    width: 45%;
+    border-radius: 50px;
+}
+
+.login_button {
+    border: none;
+    font-size: 30px;
+    background-color: #87c232;
+    color: #ffffff;
+    padding: 5px 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 45%;
+    border-radius: 50px;
+    margin: 10px;
+    height: 60px;
+}
+
+.login_button:hover {
+    background-color:#608930;
+}
+
+.login_button:active {
+    background-color: #87c232;
+}
+
+.header {
+    font-family: 'Oswald', sans-serif;
+    color: #87c232;
+    font-size: 500%;
+    line-height: 50%;
+}
+
+.logPass {
+    color: #ffffff;
+    font-size: 200%;
+}

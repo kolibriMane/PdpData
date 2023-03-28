@@ -1,0 +1,17 @@
+/***************************************************/
+/*                                                 */
+/*   Welcome to Mane Antonyan's homework folder    */
+/*                                                 */
+/***************************************************/
+
+# GETTING STARTED
+    - Production mode : npm run prod
+    - Development mode: npm run dev
+
+# Directory structure
+.
+├── ids.json        // Data - investments
+├── index.js        // main point
+├── package.json    // information about project
+├── Readme          // Mini documentation
+└── user.json       // Data - users

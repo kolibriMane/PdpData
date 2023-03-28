@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasks from JS</title>
+        <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/2919/2919634.svg"/>
+        <meta name="keywords" content="html, css, js"/>
+        <meta name="description" content="tasks"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mane Kolibri">
+        <meta charset="UTF8">
+        <script src="index.js"></script>
+        <script src="this.js"></script>
+    </head>
+    <body>
+        <h1 id="text">Enter number to compare with random!</h1>
+        <input type="number" id="number" min="1" max="10" value="1">
+        <button id="goButton" onclick="window.randomNum()">Go</button>
+        <h1 id="text">Enter two numbers</h1>
+        <input type="number" id="num1" value="1">
+        <input type="number" id="num2" value="1">
+        <button id="get" onclick="window.getMulDiv()">Get!</button>
+        <h1 id="label">Enter Fahrenheit or Celsius</h1>
+        <input type="number" placeholder="Fahrenheit or Celsius" id="t" value="1">
+        <button onclick="window.convert('cel')">to cel!</button>
+        <button onclick="window.convert('fah')">to fah!</button>
+        <h1 id="url">Get url</h1>
+        <button onclick="window.getURL()">URL</button>
+        <h1>Create var</h1>
+        <input type="text" id="inp">
+        <button onclick="window.createVar()">Create</button>
+        <button onclick="this.style.background = 'red'">Click Me!</button>
+        <h1 id="mul"></h1>
+        <h1 id="div"></h1>
+        <script language="javascript">
+            // Function calls
+            tasks.date();
+            tasks.content();
+            tasks.currentData();
+            tasks.area();
+            tasks.rotateString("Mane");
+            tasks.calendar(1992);
+            tasks.firstSunday();
+            tasks.untilChristmas();
+            tasks.extension("hello.html")
+            tasks.extension(14);
+            tasks.sum(9, 2);
+            tasks.diff(-190);
+            tasks.check(60, -10);
+            tasks.checkRange(110);
+            tasks.isPositiveNegative(200, -799);
+            let myObj = {
+                "something": {
+                    "something" : ["aa", "aay"]
+                },
+                "a": "new",
+                key1: {
+                    key2: {
+                        key3: "hell",
+                        7: {
+                            1 : 2
+                        }
+                    },
+                    6: 8
+                }
+            }
+            console.log(homework.copyV2({}, myObj))
+            console.log(tasks.pyString("hello"));
+            tasks.delChar("hello Mane", 5);
+            tasks.changeString("Mane");
+            tasks.FrontBackString("hell");
+            tasks.isMultiple(21);
+            tasks.stringChars("some");
+            tasks.areInRangeThree(1, 55, 5);
+        </script>
+    </body>
+</html>
